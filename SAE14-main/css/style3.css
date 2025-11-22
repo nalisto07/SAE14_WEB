@@ -1,13 +1,21 @@
-h1 {
+body {
+  font-family: Comic Sans MS, serif;
+  padding: 20px;
+}
 
+
+h1 {
+    background-color: black;
     justify-content: center;
     display: flex;
-    color: rgb(219, 85, 126);
+    color: white;
+    padding: 0 10px;
+    border-radius: 10px
     }
 
 
 ul {
-    color: blue;
+    color:white;
     display: flex;
     justify-content: center;
     list-style: none;
@@ -16,14 +24,58 @@ ul {
     }
     
     ul li {
+      color: white;
       list-style: none;
       padding: 8px 12px;
     }
     
     ul li a:hover {
-      color: brown;
-      border-bottom: 2px solid brown;
+      color: white;
+      border-bottom: 3px solid black;
       padding: 8px 12px;
       border-radius: 10px;
       
     }
+
+#article {
+  display: grid;   
+  grid-template-columns: repeat(2, 1fr);        
+  gap: 20px; 
+  max-width: 1200px;
+  margin: 2rem auto;
+}
+p {
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  line-height: 1.6;
+  
+}
+article{
+    display: grid;
+    background-color: black;
+    border-radius: 10px;
+    padding: 1.5rem;
+    align-items: center;
+    
+}
+
+#Enfance {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+#Passion {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+#Voiture {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+#Dream {
+  grid-column: 1;
+  grid-row: 2;
+}
