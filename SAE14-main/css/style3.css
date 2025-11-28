@@ -37,19 +37,15 @@ ul {
     
     }
     
-    ul li {
-      color: white;
-      list-style: none;
-      padding: 8px 12px;
-    }
-    
-    ul li a:hover {
-      color: white;
-      border-bottom: 3px solid black;
-      padding: 8px 12px;
-      border-radius: 10px;
-      
-    }
+  ul li {
+    color: white;
+    list-style: none;
+    padding: 8px 12px;
+  }
+  ul li a {
+    color: white;
+  }
+  
 
 #article {
   display: grid;   
@@ -63,6 +59,8 @@ p {
   color: white;
   font-size: 20px;
   line-height: 1.6;
+  grid-column: 1;
+  grid-row: 1;
   
 }
 article{
@@ -73,25 +71,20 @@ article{
     border-radius: 10px;
     padding: 1.5rem;
     align-items: center;
-    grid-column: span 2;
 }
 
-#Enfance {
-  grid-column: 1;
-  grid-row: 1;
+.article_image {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    grid-column: 2;
+    grid-row: 1;
 }
 
-#Passion {
-  grid-column: 2;
-  grid-row: 1;
-}
-
-#Voiture {
-  grid-column: 1;
-  grid-row: 2;
-}
-
-#Dream {
-  grid-column: 2;
-  grid-row: 2;
+.article_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
