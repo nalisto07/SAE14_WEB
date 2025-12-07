@@ -26,6 +26,7 @@ h1 {
   color: white;
   padding: 0 10px;
   border-radius: 10px;
+  border: 2px solid grey;
 }
 
 ul {
@@ -57,6 +58,7 @@ h2 {
   display: flex;
   justify-content: center;
   border-radius: 5px;
+  border: 2px solid grey;
 }
 
 
@@ -70,6 +72,7 @@ h2 {
   background-color: rgba(0, 0, 0, 0.85);
   overflow: hidden;
   border-radius: 10px;
+  border: 3px solid grey;
 }
 
 .Conteneur_Photo {
