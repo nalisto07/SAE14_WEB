@@ -48,12 +48,17 @@ ul li{
 }
 ul li a {
   color: white;
+  text-decoration: none;
 }
 
 .Sommaire{
-  grid-column: 1;
   background-color: black;
   border-radius: 5px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   border: 2px solid grey;
+}
+.Sommaire:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px white; 
+  border-color: white;  
 }
