@@ -62,3 +62,23 @@ ul li a {
   box-shadow: 0 10px 30px white; 
   border-color: white;  
 }
+
+@media (max-width: 768px) {
+  h1{
+    font-size: 1.6rem;
+  }
+
+  h2{
+    font-size: 1.5rem;
+  }
+  p{
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+
+p{
+  font-size: 12px;
+}
+}

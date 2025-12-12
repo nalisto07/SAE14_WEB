@@ -129,3 +129,29 @@ h2 {
   padding: 5px;
   padding-left: 20px;
 }
+@media (max-width: 768px) { 
+  Galerie_photo{
+    grid-template-columns: 1fr;
+  }
+  .Grille{
+    grid-template-columns: 1fr;
+  }
+  .Conteneur_Photo{
+    height: 300px;
+  }
+  h1 { font-size: 1.6rem; }
+  h2{
+    font-size: 1.5rem;
+  }
+  ul { flex-wrap: wrap; }
+  p{
+    font-size: 16px;
+  }
+  
+  
+}
+@media (max-width: 480px) {
+p{
+  font-size: 12px;
+}
+}
