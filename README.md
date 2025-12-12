@@ -13,3 +13,5 @@ Il comporte également quelques petites animations tels que un effet "hoover" lo
 J'ai aussi ajouté la fonctionnalité de "zoom" dans la galerie photo. Je me suis aidé de l'ia pour cette partie pour le focntionnement de L'input et les labels.
 Je lui ai également demandé pour flouter l'image de fond, pour cela il fallait utiliser ::before devant le body pour eviter de flouter toute la page.
 
+J'ai retouché les images de la galerie photo lorsque cetait nécessaire afin de proteger les propriétaires des véhicules.
+
