@@ -28,6 +28,19 @@ h1 {
   border-radius: 10px;
   border: 2px solid grey;
 }
+h2 {
+  font-size: 40px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  border: 2px solid grey;
+}
+p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
 
 ul {
   display: flex;
@@ -49,18 +62,6 @@ ul li a {
   margin: 0 auto;
   padding: 20px;
 }
-
-
-h2 {
-  font-size: 35px;
-  background-color: black;
-  color: white;
-  display: flex;
-  justify-content: center;
-  border-radius: 5px;
-  border: 2px solid grey;
-}
-
 
 .Grille {
   display: grid;

@@ -28,7 +28,15 @@ h1 {
   border-radius: 10px;
   border: 2px solid grey;
 }
+p {
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  line-height: 1.6;
+  grid-column: 1;
+  grid-row: 1;
 
+}
 
 ul {
   display: flex;
